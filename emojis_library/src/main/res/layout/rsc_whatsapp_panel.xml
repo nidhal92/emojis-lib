@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Message"
-                android:singleLine="true"
+
                 android:textColor="@color/rsc_bottom_panel_accent"
                 android:textSize="18dip"
                 android:theme="@style/WhatsAppEditText"
@@ -63,6 +63,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_margin="2dip"
+            android:maxHeight="50dp"
             android:clickable="true"
             android:src="@drawable/ic_send_whatsapp"
             app:backgroundTint="@color/rsc_emoji_tab_indicator"
